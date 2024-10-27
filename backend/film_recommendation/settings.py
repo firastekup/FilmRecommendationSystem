@@ -28,8 +28,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'movies',
+    'rest_framework.authtoken',
     'corsheaders',  # Ajout de corsheaders
-]
+]   
 
 # Middleware
 MIDDLEWARE = [
